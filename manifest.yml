@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pomon
+  host: pomon
+  disk_quota: 1024M
+  services:
+  - pomon-AdvancedMobileAccess
+  - pomon-imfpush
+  - pomon-cloudantNoSQLDB
